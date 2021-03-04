@@ -12,3 +12,7 @@ app.listen(port, () => {
 app.get('/', (req, res) => {
   return res.send('!!!! welcome to the home page')
 })
+
+app.get('/home', (req, res) => {
+ return res.send('welcome to the home page of this application')
+});
